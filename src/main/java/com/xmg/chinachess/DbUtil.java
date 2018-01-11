@@ -23,9 +23,9 @@ public class DbUtil {
 
     public DbUtil() {
         driver = "com.mysql.jdbc.Driver";
-        path = "jdbc:mysql://127.0.0.1:3306/chinachess?useUnicode=true&characterEncoding=utf8";
+        path = "jdbc:mysql://10.101.25.141:3306/chinachess?useUnicode=true&characterEncoding=utf8";
         user = "root";
-        pwd = "123456";
+        pwd = "c1e2d1";
         try {
             Class.forName(driver);
         } catch (ClassNotFoundException e) {
